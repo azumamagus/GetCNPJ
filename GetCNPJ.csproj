@@ -9,13 +9,14 @@
         <!-- Package Information -->
         <PackageId>GetCNPJ</PackageId>
         <Version>1.0.0</Version>
-        <Authors>Your Name</Authors>
-        <Company>Your Company</Company>
+        <Authors>Bruno da Cunha Felipe</Authors>
+        <Company>FeTx</Company>
         <Description>Biblioteca para consulta de CNPJ em APIs públicas brasileiras (ReceitaWS, BrasilAPI, CNPJA). Suporta .NET Framework 4.5+, .NET 8, .NET 9 e .NET Standard 2.0 com rate limiting integrado.</Description>
         <PackageTags>CNPJ;Brasil;ReceitaWS;BrasilAPI;CNPJA;API;Consulta</PackageTags>
-        <RepositoryUrl>https://github.com/yourusername/GetCNPJ</RepositoryUrl>
+        <RepositoryUrl>https://github.com/azumamagus/GetCNPJ</RepositoryUrl>
         <PackageLicenseExpression>MIT</PackageLicenseExpression>
         <PackageReadmeFile>README.md</PackageReadmeFile>
+        <PackageIcon>logo.png</PackageIcon>
     </PropertyGroup>
 
     <ItemGroup>
@@ -29,7 +30,11 @@
 
     <!-- README para o pacote NuGet -->
     <ItemGroup>
-        <None Include="..\README.md" Pack="true" PackagePath="\" />
+        <None Include="README.md" Pack="true" PackagePath="\" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <None Include="logo.png" Pack="true" PackagePath="\" />
     </ItemGroup>
 
 </Project>
