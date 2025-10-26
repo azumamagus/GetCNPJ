@@ -3,6 +3,9 @@
 [![NuGet](https://img.shields.io/nuget/v/GetCNPJ.svg)](https://www.nuget.org/packages/GetCNPJ/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+<img width="374" height="373" alt="image" src="https://github.com/user-attachments/assets/a52c4ae9-fd76-48a6-af33-1dda1de6765d" />
+
+
 Biblioteca .NET para consulta de CNPJ em APIs públicas brasileiras, com suporte a múltiplos provedores e rate limiting integrado.
 
 ## 📋 Características
